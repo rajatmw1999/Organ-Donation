@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .header .header-top {
     background: #01d262 none repeat scroll 0 0;
     height: 50px;
@@ -1127,4 +1131,13 @@
 }
 .footer_carosal_icon .owl-nav{
     display: none;
+}
+
+#about_para
+{
+    font-size:20px;
+}
+
+.our_activity span{
+    font-size:25px;
 }
