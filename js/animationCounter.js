@@ -24,7 +24,7 @@
 					start: 0,
 					end: null,
 					step: 1,
-					delay: 1000,
+					delay: 100,
 					txt: ""
 				}
 

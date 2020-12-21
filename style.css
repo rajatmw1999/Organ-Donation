@@ -75,6 +75,7 @@ html{
 
 .main-logo>img {
     display: inline-block;
+    width:25%;
 }
 
 .main-logo>h2 {
@@ -97,7 +98,7 @@ html{
 
 .carosal-area .text>h3 {
     color: #fff;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     margin-top: 210px;
@@ -106,7 +107,7 @@ html{
 .carosal-area .text>p {
     color: #fff;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 400;
     line-height: 30px;
     margin-top: 28px;
@@ -264,7 +265,7 @@ html{
 .our_activity .single-Promo p {
     color: #3c354e;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
@@ -319,7 +320,7 @@ html{
 .donate_section p {
     color: #fff;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
@@ -866,14 +867,14 @@ html{
 .carosal_bottom .item p {
     color: #fff;
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 30px;
     margin-top: 28px;
 }
 
 .carosal_bottom .item h5 {
-    margin-top: 21px;
+    margin-top: 22px;
 }
 
 .carosal_bottom .item h5 i {
@@ -892,7 +893,7 @@ html{
 
 .carosal_bottom .item h6 {
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     color: #fff;
 }
@@ -992,7 +993,7 @@ html{
 }
 
 .footer .footer-charity-text p {
-    color: rgb(91, 91, 91);
+    color: white;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -1034,7 +1035,7 @@ html{
 }
 
 .footer .footer-text.one ul li i {
-    color: rgb(91, 91, 91);
+    color: white;
     font-size: 15px;
     left: -7px;
     position: absolute;
@@ -1042,7 +1043,7 @@ html{
 }
 
 .footer .footer-text.one ul li a {
-    color: rgb(91, 91, 91);
+    color: white;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -1050,7 +1051,7 @@ html{
 }
 
 .footer .footer-text.two ul li a {
-    color: rgb(91, 91, 91);
+    color: white;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -1137,9 +1138,98 @@ html{
 
 #about_para
 {
-    font-size:20px;
+    font-size:25px !important;
 }
 
 .our_activity span{
-    font-size:25px;
+    font-size:32px;
+    font-weight: 400;
+}
+
+
+
+
+
+.section-team .header-section .small-title {
+    margin-bottom: 25px;
+	font-size: 16px;
+    font-weight: 500;
+    color: #3e64ff;
+}
+
+.section-team .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section-team .single-person {
+	margin-top: 30px;
+	padding: 30px;
+	background-color: #f6f9ff;
+	border-radius: 5px;
+}
+
+.section-team .single-person:hover {
+	background: linear-gradient(to right, #016cec, #00b5f7);
+}
+
+.section-team .single-person .person-image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 4px dashed transparent;
+    transition: padding .3s;
+}
+
+.section-team .single-person:hover .person-image {
+	padding: 12px;
+    border: 4px dashed #fff;
+}
+
+.section-team .single-person .person-image img {
+	width: 100%;
+    border-radius: 50%;
+}
+
+.section-team .single-person .person-image .icon {
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(to right, #016cec, #00b5f7);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.section-team .single-person:hover .person-image .icon {
+	background: none;
+	background-color: #fff;
+	color: #016cec;
+}
+
+.section-team .single-person .person-info .full-name {
+	margin-bottom: 10px;
+	font-size: 28px;
+    font-weight: 700;
+}
+
+.section-team .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #016cec;
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+	color: #fff;
+}
+
+.answer_size{
+    font-size:17px;
 }
