@@ -140,25 +140,25 @@
 
      $('.fb').animationCounter({
          start: 0,
-         end: 3600,
+         end: 6012,
          step: 10,
          delay: 20
      });
      $('.bike').animationCounter({
          start: 0,
-         end: 6,
+         end: 12,
          step: 1,
          delay: 300,
      });
      $('.code').animationCounter({
          start: 0,
-         end: 20,
+         end: 52,
          step: 2,
          delay: 200,
      });
      $('.coffee').animationCounter({
          start: 0,
-         end: 5,
+         end: 6,
          step: 1,
          delay: 200,
      });
